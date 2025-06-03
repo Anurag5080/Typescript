@@ -8,10 +8,26 @@
 //     console.log("Hello ${x}");
 // }
 // greet("Anurag");
-function sum(x, y) {
-    // console.log(x + y);  
-    return x + y;
+// if we wasn't give the type of function then it iferreds its type implicitly based on the type of i/o arguments.
+// function sum(x:number,y:number): number{
+// console.log(x + y);  
+// return x + y;
+// };
+// let ans : number = sum(2,4);
+// console.log(ans);
+function delayedcall(anotherfn) {
+    setTimeout(() => anotherfn("Anurag"), 5000);
+}
+function fn(str) {
+    console.log(`hello ${str}`);
 }
 ;
-let ans = sum(2, 4);
-console.log(ans);
+delayedcall(fn);
+// function delayedcall(anotherfn: () => number) {
+//     setTimeout(anotherfn, 3000);
+// }
+// function fn(){
+//     console.log("Hello Arpit.");
+//     return 1;
+// };
+// delayedcall(fn);

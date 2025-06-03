@@ -13,14 +13,35 @@
 
 // greet("Anurag");
 
+// if we wasn't give the type of function then it iferreds its type implicitly based on the type of i/o arguments.
 
-function sum(x:number,y:number): number{
+// function sum(x:number,y:number): number{
     // console.log(x + y);  
-    return x + y;
+    // return x + y;
+// };
+
+// let ans : number = sum(2,4);
+
+// console.log(ans);
+
+function delayedcall(anotherfn: (a : string) => void) {
+    setTimeout(()=> anotherfn("Anurag"),5000);
+}
+
+function fn(str : string){
+    console.log(`hello ${str}`);
 };
 
-let ans : number = sum(2,4);
+delayedcall(fn);
 
-console.log(ans);
+// function delayedcall(anotherfn: () => number) {
+//     setTimeout(anotherfn, 3000);
+// }
 
+// function fn(){
+//     console.log("Hello Arpit.");
+//     return 1;
+// };
+
+// delayedcall(fn);
 
