@@ -1,0 +1,3 @@
+1. Target = used to give the targeted version of javascript in which you want final conversion of typescript to that version of javascript.
+2. rootDir = where all your ts files present. ("./src")
+3. outDir = where you want to store all your auto generated javascript files. ("./dist" or "./build"). After that remeber that the script changes to "node dist/index.js" or "node build/index.js".

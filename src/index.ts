@@ -1,4 +1,6 @@
-// in js :-
+// Typescript is actually an Dev dependency.
+// 
+//  in js :-
 //  let x = 2;
 //  x = "Anurag";
 
@@ -45,13 +47,13 @@
 
 // delayedcall(fn);
 
-function delayedcall(anotherfn: ((varibale : string) => number) | ((variable : number) => number)) {
-    setTimeout(anotherfn, 3000);
-}
+// function delayedcall(anotherfn: ((varibale : string) => number | string) | ((variable : number) => number | string)) {
+//     setTimeout(anotherfn, 3000);
+// }
 
-function fn(argument : string | number){
-    console.log("Hello Arpit.");
-    return 1;
-};
+// function fn(argument : string | number){
+//     console.log("Hello Arpit.");
+//     return 1; //For more than one return type to a function, we can do that but in cocky fashion or using polymorphism but as js is loosely typed it's easy to have more than one return type to a function but as a developer not good.
+// };
 
-delayedcall(fn);
+// delayedcall(fn);
