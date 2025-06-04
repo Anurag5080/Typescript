@@ -4,7 +4,11 @@
 const user = {
     name: "Anurag",
     age: 22,
-    marriedstatus: true
+    marriedstatus: true,
+    address: {
+        streetname: "Ayodhya",
+        pincode: 224229
+    }
 };
 function greet(user) {
     console.log(`Hello ${user.name}, your age is ${user.age} and you are ${user.marriedstatus ? "Married" : "Single"}`);
