@@ -24,15 +24,15 @@
 
 // console.log(ans);
 
-function delayedcall(anotherfn: (a : string) => void) {
-    setTimeout(()=> anotherfn("Anurag"),5000);
-}
+// function delayedcall(anotherfn: (a : string) => void) {
+//     setTimeout(()=> anotherfn("Anurag"),5000);
+// }
 
-function fn(str : string){
-    console.log(`hello ${str}`);
-};
+// function fn(str : string){
+//     console.log(`hello ${str}`);
+// };
 
-delayedcall(fn);
+// delayedcall(fn);
 
 // function delayedcall(anotherfn: () => number) {
 //     setTimeout(anotherfn, 3000);
@@ -45,3 +45,13 @@ delayedcall(fn);
 
 // delayedcall(fn);
 
+function delayedcall(anotherfn: ((varibale : string) => number) | ((variable : number) => number)) {
+    setTimeout(anotherfn, 3000);
+}
+
+function fn(argument : string | number){
+    console.log("Hello Arpit.");
+    return 1;
+};
+
+delayedcall(fn);
