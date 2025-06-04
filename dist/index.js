@@ -17,14 +17,13 @@
 // };
 // let ans : number = sum(2,4);
 // console.log(ans);
-function delayedcall(anotherfn) {
-    setTimeout(() => anotherfn("Anurag"), 5000);
-}
-function fn(str) {
-    console.log(`hello ${str}`);
-}
-;
-delayedcall(fn);
+// function delayedcall(anotherfn: (a : string) => void) {
+//     setTimeout(()=> anotherfn("Anurag"),5000);
+// }
+// function fn(str : string){
+//     console.log(`hello ${str}`);
+// };
+// delayedcall(fn);
 // function delayedcall(anotherfn: () => number) {
 //     setTimeout(anotherfn, 3000);
 // }
