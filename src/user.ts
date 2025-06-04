@@ -7,7 +7,7 @@ const user = {
     age : 22,
     marriedstatus : true,
     address : {
-        streetname : "Ayodhya";
+        streetname : "Ayodhya",
         pincode : 224229
     }
 }
