@@ -8,9 +8,6 @@
 //  let x : number = 2;
 
 
-
-
-
 // function greet( x : string ){
 //     console.log("Hello ${x}");
 // }
