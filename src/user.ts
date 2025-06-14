@@ -1,7 +1,7 @@
 // Interfaces
 
 
-// That's how we define types to the complex objectsin TS.
+// That's how we define types to the complex objects in TS.
 const user = {
     name : "Anurag",
     age : 22,
