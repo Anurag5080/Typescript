@@ -2,6 +2,7 @@
 
 
 
+
 // That's how we define types to the complex objects in TS.
 const user = {
     name : "Anurag",
